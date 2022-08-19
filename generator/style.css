@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: center;
+    margin: 0;
+    padding: 2em;
+    min-height: 100vh;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    /* font-family: "Audiowide", cursive; */
+    background-color: black;
+    display: block;
+    gap: 1em;
+}
+
+.btn--generate {
+    font-size: large;
+    background-color: black;
+    color: rgb(137, 253, 255);
+    font-family: inherit;
+    margin: 1em;
+    padding: 1em;
+}
+
+.btn--html {
+    background-color: orangered;
+    font-size: large;
+    margin: 1em;
+    padding: 1em;
+}
+
+.btn--css {
+    background-color: aqua;
+    font-size: large;
+    margin: 1em;
+    padding: 1em;
+}
+
+.btn--js {
+    background-color: yellow;
+    font-size: large;
+    margin: 1em;
+    padding: 1em;
+}
+
+.input--text {
+    font-size: large;
+    background-color: black;
+    color: rgb(198, 255, 84);
+    font-family: inherit;
+    margin: 1em;
+    padding: 1em;
+}
+
+.output--box {
+    line-break: 1em;
+    margin: 1em;
+    padding: 1em;
+    gap: 1em;
+    display: grid;
+    border: solid rgb(0, 217, 255);
+}
+
+.for--html {
+    color: orangered;
+    padding: 1em;
+}
+
+.for--css {
+    color: aqua;
+    padding: 1em;
+}
+
+.for--js {
+    color: yellow;
+    padding: 1em;
+}
